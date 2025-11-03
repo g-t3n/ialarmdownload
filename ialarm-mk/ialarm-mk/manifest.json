@@ -1,0 +1,11 @@
+{
+  "domain": "ialarm-mk",
+  "name": "iAlarm-MK Integration",
+  "documentation": "https://www.home-assistant.io/integrations/ialarmmk",
+  "codeowners": ["Guard"],
+  "requirements": ["lxml", "xmltodict"],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "loggers": ["ialarm-mk"],
+  "version": "1.0.0"
+}
